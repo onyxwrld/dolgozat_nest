@@ -9,10 +9,8 @@ export class AllomasService {
   create(createAllomaDto: CreateAllomaDto) {
     return this.db.station.create({
       data: {
-        location: createAllomaDto.location,
-        ipAddress: createAllomaDto.ipAddress,
-        batteryCharge: createAllomaDto.batteryCharge,
-        batteryCapacity: 100,
+        batteryCharge: 100,
+        ...createAllomaDto
       }
     });
   }

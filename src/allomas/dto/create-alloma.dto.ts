@@ -9,11 +9,11 @@ export class CreateAllomaDto {
     @IsIP(4 ,{message: "helytelen ip formátum"})
     ipAddress: string
 
-    @IsOptional()
     @IsPositive({message: "Nem lehet negatív ez a mező"})
     @IsInt({message: "Csak számot adhat meg"})
     batteryCapacity: number
 
+    @IsOptional()
     @IsInt({message: "Csak számot adhat meg"})
     @Min(0,{message: "Nem lehet nullánákl kisebb érték"})
     @Max(100,{message: "Nem lehet száznál nagyobb érték"})
