@@ -1,0 +1,70 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Allomas",
+    "dateExported": "2024-02-16T10:01:29.288Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1fd97147-cba1-4a22-a41c-2cb93b23968c",
+            "colId": "b8aea82b-2cea-4f02-b554-d8690f1b6cce",
+            "containerId": "",
+            "name": "http://localhost:3000/projectswithnames",
+            "url": "http://localhost:3000/allomas",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-16T09:49:42.688Z",
+            "modified": "2024-02-16T09:49:42.688Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0f6aad30-e83d-4dd4-ab37-84c32a22a78c",
+            "colId": "b8aea82b-2cea-4f02-b554-d8690f1b6cce",
+            "containerId": "",
+            "name": "http://localhost:3000/projectswithnames",
+            "url": "http://localhost:3000/allomas",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-16T09:57:49.385Z",
+            "modified": "2024-02-16T09:57:49.385Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"location\": \"Even further from the enterence gate\",\n    \"ipAddress\": \"192.168.1.47\",\n    \"batteryCapacity\": 4700,\n    \"batteryCharge\": 48\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a8c66b41-2394-4811-a325-b1ea8b41598b",
+            "colId": "b8aea82b-2cea-4f02-b554-d8690f1b6cce",
+            "containerId": "",
+            "name": "http://localhost:3000/allomas/1",
+            "url": "http://localhost:3000/allomas/1",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-02-16T09:58:22.779Z",
+            "modified": "2024-02-16T09:58:22.779Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4e0ed136-2e62-4859-b828-0a016b266481",
+            "colId": "b8aea82b-2cea-4f02-b554-d8690f1b6cce",
+            "containerId": "",
+            "name": "http://localhost:3000/allomas/2",
+            "url": "http://localhost:3000/allomas/2",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-16T10:00:13.156Z",
+            "modified": "2024-02-16T10:01:24.737Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
